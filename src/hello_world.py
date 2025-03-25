@@ -1,5 +1,5 @@
 """
-    Python Projects
+    Python Projects - Project 0
     Project Zero: A template for other projects
 """
 
