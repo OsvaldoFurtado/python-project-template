@@ -7,7 +7,7 @@ import shlex
 import subprocess
 from pathlib import Path
 
-from behave import then, when
+from behave import then, when  # type: ignore
 
 
 @when('we run command "{command}"')

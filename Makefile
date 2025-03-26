@@ -10,8 +10,7 @@ test:
 	tox
 
 format:
-	black .
-	isort .
+	tox -e format
 
 docs:
 	cd docs && make html
