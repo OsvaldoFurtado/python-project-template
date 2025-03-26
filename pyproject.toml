@@ -35,3 +35,18 @@ test = [
     "tox==4.9.0",
     "behave==1.2.6"
 ]
+
+lint = [
+    "mypy",
+    "flake8",
+    "black",
+    "isort"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 88
